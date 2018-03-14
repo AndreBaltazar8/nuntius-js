@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <script src="websocket.js"></script>
+    <script src="autorpc.js"></script>
+    <script src="nuntius.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <form id="connect-form"><label>Your nickname: </label><input type="text" id="connect-name" placeholder="Name"><input type="submit" id="connect-button" value="Connect"></form>
+    <div id="chat" style="display: none">
+        <form id="contact-form"><label>Connect to: </label><input type="text" id="other-name" placeholder="Name"><input type="submit" id="connect-other-button" value="Connect to person"></form>
+        <div id="open-chats"></div>
+    </div>
+</body>
+</html>
